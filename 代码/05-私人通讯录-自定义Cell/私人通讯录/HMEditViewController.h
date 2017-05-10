@@ -1,0 +1,28 @@
+//
+//  HMEditViewController.h
+//  私人通讯录
+//
+//  Created by yz on 14-8-29.
+//  Copyright (c) 2014年 iThinker. All rights reserved.
+//
+
+#import <UIKit/UIKit.h>
+
+@class HMContact,HMEditViewController;
+
+@protocol HMEditViewControllerDelegate <NSObject>
+
+@optional
+- (void)editViewController:(HMEditViewController *)edit didUpdateContact:(HMContact *)contact;
+
+@end
+
+
+@interface HMEditViewController : UIViewController
+
+@property (nonatomic, strong) HMContact *contact;
+
+@property (nonatomic, weak) id<HMEditViewControllerDelegate> delegate;
+
+
+@end

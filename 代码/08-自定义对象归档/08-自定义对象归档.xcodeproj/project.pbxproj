@@ -1,0 +1,484 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		ECA0026B19B07F170000FB9E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ECA0026A19B07F170000FB9E /* Foundation.framework */; };
+		ECA0026D19B07F170000FB9E /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ECA0026C19B07F170000FB9E /* CoreGraphics.framework */; };
+		ECA0026F19B07F170000FB9E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ECA0026E19B07F170000FB9E /* UIKit.framework */; };
+		ECA0027519B07F170000FB9E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = ECA0027319B07F170000FB9E /* InfoPlist.strings */; };
+		ECA0027719B07F170000FB9E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = ECA0027619B07F170000FB9E /* main.m */; };
+		ECA0027B19B07F170000FB9E /* HMAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = ECA0027A19B07F170000FB9E /* HMAppDelegate.m */; };
+		ECA0027E19B07F170000FB9E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ECA0027C19B07F170000FB9E /* Main.storyboard */; };
+		ECA0028119B07F170000FB9E /* HMViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ECA0028019B07F170000FB9E /* HMViewController.m */; };
+		ECA0028319B07F170000FB9E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ECA0028219B07F170000FB9E /* Images.xcassets */; };
+		ECA0028A19B07F170000FB9E /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ECA0028919B07F170000FB9E /* XCTest.framework */; };
+		ECA0028B19B07F170000FB9E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ECA0026A19B07F170000FB9E /* Foundation.framework */; };
+		ECA0028C19B07F170000FB9E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ECA0026E19B07F170000FB9E /* UIKit.framework */; };
+		ECA0029419B07F170000FB9E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = ECA0029219B07F170000FB9E /* InfoPlist.strings */; };
+		ECA0029619B07F170000FB9E /* _8________Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = ECA0029519B07F170000FB9E /* _8________Tests.m */; };
+		ECA002A119B07F5E0000FB9E /* HMPerson.m in Sources */ = {isa = PBXBuildFile; fileRef = ECA002A019B07F5E0000FB9E /* HMPerson.m */; };
+		ECA002A419B081C70000FB9E /* HMView.m in Sources */ = {isa = PBXBuildFile; fileRef = ECA002A319B081C70000FB9E /* HMView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		ECA0028D19B07F170000FB9E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ECA0025F19B07F170000FB9E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ECA0026619B07F170000FB9E;
+			remoteInfo = "08-自定义对象归档";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		ECA0026719B07F170000FB9E /* 08-自定义对象归档.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "08-自定义对象归档.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		ECA0026A19B07F170000FB9E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		ECA0026C19B07F170000FB9E /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		ECA0026E19B07F170000FB9E /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		ECA0027219B07F170000FB9E /* 08-自定义对象归档-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "08-自定义对象归档-Info.plist"; sourceTree = "<group>"; };
+		ECA0027419B07F170000FB9E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		ECA0027619B07F170000FB9E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		ECA0027819B07F170000FB9E /* 08-自定义对象归档-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "08-自定义对象归档-Prefix.pch"; sourceTree = "<group>"; };
+		ECA0027919B07F170000FB9E /* HMAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HMAppDelegate.h; sourceTree = "<group>"; };
+		ECA0027A19B07F170000FB9E /* HMAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HMAppDelegate.m; sourceTree = "<group>"; };
+		ECA0027D19B07F170000FB9E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		ECA0027F19B07F170000FB9E /* HMViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HMViewController.h; sourceTree = "<group>"; };
+		ECA0028019B07F170000FB9E /* HMViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HMViewController.m; sourceTree = "<group>"; };
+		ECA0028219B07F170000FB9E /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		ECA0028819B07F170000FB9E /* 08-自定义对象归档Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "08-自定义对象归档Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		ECA0028919B07F170000FB9E /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		ECA0029119B07F170000FB9E /* 08-自定义对象归档Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "08-自定义对象归档Tests-Info.plist"; sourceTree = "<group>"; };
+		ECA0029319B07F170000FB9E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		ECA0029519B07F170000FB9E /* _8________Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "_8________Tests.m"; sourceTree = "<group>"; };
+		ECA0029F19B07F5E0000FB9E /* HMPerson.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HMPerson.h; sourceTree = "<group>"; };
+		ECA002A019B07F5E0000FB9E /* HMPerson.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HMPerson.m; sourceTree = "<group>"; };
+		ECA002A219B081C70000FB9E /* HMView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HMView.h; sourceTree = "<group>"; };
+		ECA002A319B081C70000FB9E /* HMView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HMView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		ECA0026419B07F170000FB9E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ECA0026D19B07F170000FB9E /* CoreGraphics.framework in Frameworks */,
+				ECA0026F19B07F170000FB9E /* UIKit.framework in Frameworks */,
+				ECA0026B19B07F170000FB9E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ECA0028519B07F170000FB9E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ECA0028A19B07F170000FB9E /* XCTest.framework in Frameworks */,
+				ECA0028C19B07F170000FB9E /* UIKit.framework in Frameworks */,
+				ECA0028B19B07F170000FB9E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		ECA0025E19B07F170000FB9E = {
+			isa = PBXGroup;
+			children = (
+				ECA0027019B07F170000FB9E /* 08-自定义对象归档 */,
+				ECA0028F19B07F170000FB9E /* 08-自定义对象归档Tests */,
+				ECA0026919B07F170000FB9E /* Frameworks */,
+				ECA0026819B07F170000FB9E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		ECA0026819B07F170000FB9E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ECA0026719B07F170000FB9E /* 08-自定义对象归档.app */,
+				ECA0028819B07F170000FB9E /* 08-自定义对象归档Tests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		ECA0026919B07F170000FB9E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				ECA0026A19B07F170000FB9E /* Foundation.framework */,
+				ECA0026C19B07F170000FB9E /* CoreGraphics.framework */,
+				ECA0026E19B07F170000FB9E /* UIKit.framework */,
+				ECA0028919B07F170000FB9E /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		ECA0027019B07F170000FB9E /* 08-自定义对象归档 */ = {
+			isa = PBXGroup;
+			children = (
+				ECA0027919B07F170000FB9E /* HMAppDelegate.h */,
+				ECA0027A19B07F170000FB9E /* HMAppDelegate.m */,
+				ECA0027C19B07F170000FB9E /* Main.storyboard */,
+				ECA0029F19B07F5E0000FB9E /* HMPerson.h */,
+				ECA002A219B081C70000FB9E /* HMView.h */,
+				ECA002A319B081C70000FB9E /* HMView.m */,
+				ECA002A019B07F5E0000FB9E /* HMPerson.m */,
+				ECA0027F19B07F170000FB9E /* HMViewController.h */,
+				ECA0028019B07F170000FB9E /* HMViewController.m */,
+				ECA0028219B07F170000FB9E /* Images.xcassets */,
+				ECA0027119B07F170000FB9E /* Supporting Files */,
+			);
+			path = "08-自定义对象归档";
+			sourceTree = "<group>";
+		};
+		ECA0027119B07F170000FB9E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				ECA0027219B07F170000FB9E /* 08-自定义对象归档-Info.plist */,
+				ECA0027319B07F170000FB9E /* InfoPlist.strings */,
+				ECA0027619B07F170000FB9E /* main.m */,
+				ECA0027819B07F170000FB9E /* 08-自定义对象归档-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		ECA0028F19B07F170000FB9E /* 08-自定义对象归档Tests */ = {
+			isa = PBXGroup;
+			children = (
+				ECA0029519B07F170000FB9E /* _8________Tests.m */,
+				ECA0029019B07F170000FB9E /* Supporting Files */,
+			);
+			path = "08-自定义对象归档Tests";
+			sourceTree = "<group>";
+		};
+		ECA0029019B07F170000FB9E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				ECA0029119B07F170000FB9E /* 08-自定义对象归档Tests-Info.plist */,
+				ECA0029219B07F170000FB9E /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		ECA0026619B07F170000FB9E /* 08-自定义对象归档 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ECA0029919B07F170000FB9E /* Build configuration list for PBXNativeTarget "08-自定义对象归档" */;
+			buildPhases = (
+				ECA0026319B07F170000FB9E /* Sources */,
+				ECA0026419B07F170000FB9E /* Frameworks */,
+				ECA0026519B07F170000FB9E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "08-自定义对象归档";
+			productName = "08-自定义对象归档";
+			productReference = ECA0026719B07F170000FB9E /* 08-自定义对象归档.app */;
+			productType = "com.apple.product-type.application";
+		};
+		ECA0028719B07F170000FB9E /* 08-自定义对象归档Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ECA0029C19B07F170000FB9E /* Build configuration list for PBXNativeTarget "08-自定义对象归档Tests" */;
+			buildPhases = (
+				ECA0028419B07F170000FB9E /* Sources */,
+				ECA0028519B07F170000FB9E /* Frameworks */,
+				ECA0028619B07F170000FB9E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ECA0028E19B07F170000FB9E /* PBXTargetDependency */,
+			);
+			name = "08-自定义对象归档Tests";
+			productName = "08-自定义对象归档Tests";
+			productReference = ECA0028819B07F170000FB9E /* 08-自定义对象归档Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		ECA0025F19B07F170000FB9E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = HM;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = iThinker;
+				TargetAttributes = {
+					ECA0028719B07F170000FB9E = {
+						TestTargetID = ECA0026619B07F170000FB9E;
+					};
+				};
+			};
+			buildConfigurationList = ECA0026219B07F170000FB9E /* Build configuration list for PBXProject "08-自定义对象归档" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = ECA0025E19B07F170000FB9E;
+			productRefGroup = ECA0026819B07F170000FB9E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				ECA0026619B07F170000FB9E /* 08-自定义对象归档 */,
+				ECA0028719B07F170000FB9E /* 08-自定义对象归档Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		ECA0026519B07F170000FB9E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ECA0028319B07F170000FB9E /* Images.xcassets in Resources */,
+				ECA0027519B07F170000FB9E /* InfoPlist.strings in Resources */,
+				ECA0027E19B07F170000FB9E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ECA0028619B07F170000FB9E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ECA0029419B07F170000FB9E /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		ECA0026319B07F170000FB9E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ECA0028119B07F170000FB9E /* HMViewController.m in Sources */,
+				ECA002A119B07F5E0000FB9E /* HMPerson.m in Sources */,
+				ECA0027719B07F170000FB9E /* main.m in Sources */,
+				ECA0027B19B07F170000FB9E /* HMAppDelegate.m in Sources */,
+				ECA002A419B081C70000FB9E /* HMView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ECA0028419B07F170000FB9E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ECA0029619B07F170000FB9E /* _8________Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		ECA0028E19B07F170000FB9E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ECA0026619B07F170000FB9E /* 08-自定义对象归档 */;
+			targetProxy = ECA0028D19B07F170000FB9E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		ECA0027319B07F170000FB9E /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ECA0027419B07F170000FB9E /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		ECA0027C19B07F170000FB9E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ECA0027D19B07F170000FB9E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		ECA0029219B07F170000FB9E /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ECA0029319B07F170000FB9E /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		ECA0029719B07F170000FB9E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		ECA0029819B07F170000FB9E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		ECA0029A19B07F170000FB9E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "08-自定义对象归档/08-自定义对象归档-Prefix.pch";
+				INFOPLIST_FILE = "08-自定义对象归档/08-自定义对象归档-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		ECA0029B19B07F170000FB9E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "08-自定义对象归档/08-自定义对象归档-Prefix.pch";
+				INFOPLIST_FILE = "08-自定义对象归档/08-自定义对象归档-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		ECA0029D19B07F170000FB9E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/08-自定义对象归档.app/08-自定义对象归档";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "08-自定义对象归档/08-自定义对象归档-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "08-自定义对象归档Tests/08-自定义对象归档Tests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		ECA0029E19B07F170000FB9E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/08-自定义对象归档.app/08-自定义对象归档";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "08-自定义对象归档/08-自定义对象归档-Prefix.pch";
+				INFOPLIST_FILE = "08-自定义对象归档Tests/08-自定义对象归档Tests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		ECA0026219B07F170000FB9E /* Build configuration list for PBXProject "08-自定义对象归档" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ECA0029719B07F170000FB9E /* Debug */,
+				ECA0029819B07F170000FB9E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ECA0029919B07F170000FB9E /* Build configuration list for PBXNativeTarget "08-自定义对象归档" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ECA0029A19B07F170000FB9E /* Debug */,
+				ECA0029B19B07F170000FB9E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		ECA0029C19B07F170000FB9E /* Build configuration list for PBXNativeTarget "08-自定义对象归档Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ECA0029D19B07F170000FB9E /* Debug */,
+				ECA0029E19B07F170000FB9E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = ECA0025F19B07F170000FB9E /* Project object */;
+}
